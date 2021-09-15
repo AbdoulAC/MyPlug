@@ -1,0 +1,23 @@
+import shadow_useragent
+from shadow_useragent import ShadowUserAgent
+
+ua = shadow_useragent.ShadowUserAgent()
+   
+# on sélectionne un user-agent assez commun, avec au moins 5% d'utilisateurs
+   
+my_user_agent = ua.percent(0.05)
+
+   
+
+#fake header to prevent a server side blockage
+
+headers = {
+   'User-Agent': '{}'.format(my_user_agent),
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'Pragma': 'no-cache',
+    'Cache-Control': 'no-cache',
+}
+   

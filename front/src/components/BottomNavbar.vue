@@ -1,6 +1,6 @@
 <template>
 
-    <v-bottom-navigation r v-model="drawer"  opacity="0"  background-color="white" height="20" fluid elevation="0" flat app >   
+    <v-bottom-navigation  v-model="drawer"  background-color="transparent" height="20" fluid elevation="0" flat app >   
             <v-btn :ripple="false">
                 <v-icon> mdi-account-cash </v-icon>
             </v-btn>

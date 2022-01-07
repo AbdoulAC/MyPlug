@@ -1,6 +1,8 @@
 <template>
-    <div class="about">
-        <h1> This is an about page</h1>
+    <div class="bag">
+        <v-btn class="outlined text elevation 0">
+            <span color="green lighten-4"> Get the bag </span>
+        </v-btn>
     </div>
 </template>
 

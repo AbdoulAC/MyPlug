@@ -69,9 +69,9 @@ export default {
         return{
             drawer:false,
             links:[
-                    {icon:'mdi-snowman', text:'home', route: '/views/Dashboard'},
                     {icon:'mdi-snowman', text:'dash', route: '/'},
-                    {icon:'mdi-snowman', text:'About', route: '/views/About'},
+                    {icon:'mdi-snowman', text:'Timeline', route: '/views/Dashboard'},
+                    {icon:'mdi-snowman', text:'Bag', route: '/views/About'},
                     {icon:'mdi-snowman', text:'team', route: 'Team'},
                  ]
             }
